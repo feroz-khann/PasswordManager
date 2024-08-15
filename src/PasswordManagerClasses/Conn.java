@@ -10,7 +10,7 @@ public class Conn {
     public Conn() {
         try {
             // Establishing connection
-            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/PasswordManager", "root", "Feroz123@");
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/PasswordManager", "root", "password");
             // Creating a statement
             s = c.createStatement();
         } catch (SQLException e) {
